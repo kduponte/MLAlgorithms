@@ -7,25 +7,21 @@ The code is much easier to follow than the optimized libraries and easier to pla
 All algorithms are implemented in Python, using numpy, scipy and autograd.  
 
 ### Implemented:
-* [Deep learning (MLP, CNN, RNN, LSTM)] (mla/neuralnet)
-* [Linear regression, logistic regression] (mla/linear_models.py)
-* [Random Forests] (mla/ensemble/random_forest.py)
-* [SVM with kernels (Linear, Poly, RBF)] (mla/svm)
-* [K-Means] (mla/kmeans.py)
-* [K-nearest neighbors] (mla/knn.py)
-* [Naive bayes] (mla/naive_bayes.py)
-* [PCA] (mla/pca.py)
-* [Factorization machines] (mla/fm.py)
-* [Gradient Boosting trees (also known as GBDT, GBRT, GBM, XGBoost)] (mla/ensemble/gbm.py)
+* [Deep learning (MLP, CNN, RNN, LSTM)](mla/neuralnet)
+* [Linear regression, logistic regression](mla/linear_models.py)
+* [Random Forests](mla/ensemble/random_forest.py)
+* [Support vector machine (SVM) with kernels (Linear, Poly, RBF)](mla/svm)
+* [K-Means](mla/kmeans.py)
+* [Gaussian Mixture Model](mla/gaussian_mixture.py)
+* [K-nearest neighbors](mla/knn.py)
+* [Naive bayes](mla/naive_bayes.py)
+* [Principal component analysis (PCA)](mla/pca.py)
+* [Factorization machines](mla/fm.py)
+* [Restricted Boltzmann machine (RBM)](mla/rbm.py)
+* [t-Distributed Stochastic Neighbor Embedding (t-SNE)](mla/tsne.py)
+* [Gradient Boosting trees (also known as GBDT, GBRT, GBM, XGBoost)](mla/ensemble/gbm.py)
+* [Reinforcement learning (Deep Q learning)](mla/rl)
 
-
-### TODO:
-* t-SNE
-* MCMC
-* Word2vec
-* Adaboost
-* HMM
-* Restricted Boltzmann machine
 
 ### Installation
         git clone https://github.com/rushter/MLAlgorithms
@@ -44,4 +40,7 @@ All algorithms are implemented in Python, using numpy, scipy and autograd.
         python -m examples.linear_models
 
 ### Contributing
-Your contributions are always welcome!
+
+Your contributions are always welcome!  
+Feel free to improve existing code, documentation or implement new algorithm.  
+Please open an issue to propose your changes if they are big enough.  
